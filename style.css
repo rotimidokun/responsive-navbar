@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+	text-align: center;
+}
+
+.navbar {
+  font-family: montserrat;
+  cursor: pointer;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  list-style: none;
+  background-color: #1F1F45;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 20px;
+  width: 15%;
+  height: 100%;
+  padding: 20px;
+  transform: translateX(-100%);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.burgerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+.rows {
+  cursor: pointer;
+}
+
+.span {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.sidebar {
+  transform: translateX(0px);
+}
+
+.line-0 {
+  transform: rotate(45deg) translate(4.5px, 12px);
+}
+
+.line-1 {
+  transform: scale(0);
+}
+
+.line-2 {
+  transform: rotate(-45deg) translateY(-7.5px);
+}
+
+img {
+	display: block;
+	width: 50%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: montserrat;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+p {
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+.nav-el {}
